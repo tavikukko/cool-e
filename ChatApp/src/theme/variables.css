@@ -1,0 +1,90 @@
+/* ChatGPT-style Dark Theme */
+:root {
+  --ion-color-primary: #10a37f;
+  --ion-color-primary-rgb: 16, 163, 127;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0d8f6f;
+  --ion-color-primary-tint: #28b48c;
+
+  --ion-color-secondary: #1f2933;
+  --ion-color-secondary-rgb: 31, 41, 51;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #1b242d;
+  --ion-color-secondary-tint: #353e47;
+
+  --ion-background-color: #050509;
+  --ion-background-color-rgb: 5, 5, 9;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-toolbar-background: #202123;
+  --ion-item-background: #1f2933;
+  --ion-card-background: #1f2933;
+  --ion-tab-bar-background: #202123;
+}
+
+body {
+  background: linear-gradient(180deg, #202123 0%, #050509 100%);
+  min-height: 100vh;
+}
+
+ion-content {
+  --background: linear-gradient(180deg, #202123 0%, #050509 100%);
+}
+
+ion-tab-bar {
+  --background: #202123;
+  --border: 1px solid #3d3d3d;
+}
+
+ion-tab-button {
+  --color: #8e8ea0;
+  --color-selected: #10a37f;
+}
+
+ion-item {
+  --background: transparent;
+  --color: #ffffff;
+  --border-color: #3d3d3d;
+}
+
+ion-header ion-toolbar {
+  --background: #202123;
+  --color: #ffffff;
+  --border-color: #3d3d3d;
+}
+
+ion-footer ion-toolbar {
+  --background: #202123;
+  --border-color: #3d3d3d;
+}
+
+/* Chat bubble styles */
+.user-bubble {
+  background: #10a37f;
+  color: #ffffff;
+  border-radius: 18px 18px 4px 18px;
+  padding: 12px 16px;
+  margin: 8px;
+  max-width: 80%;
+  align-self: flex-end;
+}
+
+.assistant-bubble {
+  background: #1f2933;
+  color: #ffffff;
+  border-radius: 18px 18px 18px 4px;
+  padding: 12px 16px;
+  margin: 8px;
+  max-width: 80%;
+  align-self: flex-start;
+}
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}

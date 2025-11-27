@@ -1,0 +1,21 @@
+{
+  "name": "ChatApp",
+  "short_name": "ChatApp",
+  "description": "A ChatGPT-style chat application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050509",
+  "theme_color": "#202123",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
